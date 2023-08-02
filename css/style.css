@@ -73,6 +73,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10rem;
 }
 span{
   color: var(--main-color);
@@ -252,7 +253,7 @@ span{
 }
 .portfolio-layer p{
   font-size: 1.6rem;
-  margin: .3rem 0 1rem;
+  margin: .3rem 0 4rem;
 }
 .portfolio-layer a{
   display: inline-flex;
@@ -280,6 +281,7 @@ span{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 0.5rem;
 }
 .contact form .input-box input,
 .contact form textarea{
