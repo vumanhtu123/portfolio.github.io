@@ -53,7 +53,7 @@ window.onscroll = () =>{
  
   // typed js
   const typed = new Typed('.multiple-text',{
-    strings : ['Developer Mobile' , 'Nhân viên tại AFS','Người con xứ Tuyên'],
+    strings : ['developer Mobile' , 'nhân viên tại AFS','người con xứ Tuyên'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,

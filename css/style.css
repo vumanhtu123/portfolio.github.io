@@ -85,7 +85,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  gap: 5px;
 }
 
 span {
@@ -96,6 +96,8 @@ span {
   width: 35vw;
   animation: floatImage 4s ease-in-out infinite;
   border-radius: 20%;
+  background-size: cover;
+  padding: 10%;
 }
 
 @keyframes floatImage {
@@ -262,11 +264,13 @@ span {
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
+  /* padding: 15%; */
 }
 
 .portfolio-box img {
   width: 100%;
   transition: .5s ease;
+  padding: auto;
 }
 
 .portfolio-box:hover img {
@@ -455,7 +459,6 @@ span {
 
   .home {
     flex-direction: column;
-    gap: 10;
   }
 
   .home-content h3 {
