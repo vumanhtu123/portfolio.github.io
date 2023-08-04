@@ -56,6 +56,6 @@ window.onscroll = () =>{
     strings : ['developer Mobile' , 'nhân viên tại AFS','người con xứ Tuyên'],
     typeSpeed: 100,
     backSpeed: 100,
-    backDelay: 1000,
+    backDelay: 1500,
     loop: true
   });
