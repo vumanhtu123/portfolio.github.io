@@ -264,14 +264,13 @@ span {
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
-  background-size: cover;
-  padding: 10%;
 }
 
 .portfolio-box img {
   width: 100%;
+  height: auto;
   transition: .5s ease;
-  padding: auto;
+  background-size: cover;
 }
 
 .portfolio-box:hover img {
@@ -497,7 +496,7 @@ span {
   }
 }
 
-@media (max-width : 617px) {
+@media (max-width : 200px) {
   .portfolio-container {
     grid-template-columns: 1fr;
   }
